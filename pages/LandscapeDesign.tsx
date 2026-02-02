@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MobileBottomBar from '../components/MobileBottomBar';
@@ -36,6 +37,12 @@ const LandscapeDesign: React.FC = () => {
 
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
+      <SEO
+        title="Landscape Design Services - Custom Planting & Garden Design"
+        description="Expert landscape design services in South King County. Custom planting plans, garden bed installation, and arbor care tailored to Pacific Northwest climate. Professional design consultation available."
+        image="/images/Grass-GTO.jpeg"
+        url="https://gtolandscape.com/services/landscape-design"
+      />
       <div className="beam-overlay" />
       <Header scrolled={scrolled} />
 

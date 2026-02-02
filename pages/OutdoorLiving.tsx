@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MobileBottomBar from '../components/MobileBottomBar';
@@ -36,6 +37,12 @@ const OutdoorLiving: React.FC = () => {
 
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
+      <SEO
+        title="Outdoor Living Spaces - Lighting, Fire Pits & Water Features"
+        description="Transform your backyard with custom outdoor living features. Professional landscape lighting, fire pits, water features, and outdoor entertainment spaces in South King County, WA."
+        image="/images/Grass-GTO.jpeg"
+        url="https://gtolandscape.com/services/outdoor-living"
+      />
       <div className="beam-overlay" />
       <Header scrolled={scrolled} />
 

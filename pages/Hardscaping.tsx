@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MobileBottomBar from '../components/MobileBottomBar';
@@ -36,6 +37,12 @@ const Hardscaping: React.FC = () => {
 
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
+      <SEO
+        title="Hardscaping Services - Paver Patios & Retaining Walls"
+        description="Professional hardscaping services in South King County. Custom paver patios, retaining walls, outdoor kitchens, and more. Expert installation with premium materials. Serving Des Moines, Federal Way, Kent, and surrounding areas."
+        image="/images/Grass-GTO.jpeg"
+        url="https://gtolandscape.com/services/hardscaping"
+      />
       <div className="beam-overlay" />
       <Header scrolled={scrolled} />
 

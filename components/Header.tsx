@@ -73,21 +73,18 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             )}
           </div>
 
-          {/* Other Nav Items */}
-          {['Projects', 'About', 'Service Areas', 'Contact'].map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase().replace(' ', '-')}`}
-              className="hover:text-primary transition-colors duration-300 relative group"
-            >
-              {item}
-              <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
-            </a>
-          ))}
+          {/* Contact Link */}
+          <a
+            href="#contact"
+            className="hover:text-primary transition-colors duration-300 relative group"
+          >
+            Contact
+            <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
+          </a>
         </nav>
 
         {/* Right Side - Actions */}
-        <div className="flex items-center space-x-2 sm:space-x-4 md:space-x-8">
+        <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-10">
           <a href="tel:2532692027" className="hidden md:block text-sm font-semibold hover:text-primary transition-colors">
             (253) 269-2027
           </a>

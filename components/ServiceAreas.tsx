@@ -50,9 +50,9 @@ const ServiceAreas: React.FC = () => {
           <div className="lg:w-1/2 w-full h-[500px] relative rounded-2xl overflow-hidden shadow-2xl group">
             {/* Custom SVG Map Visualization or high-quality map placeholder */}
             <div className="absolute inset-0 bg-[#E5E7EB]">
-                <img 
-                    src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1000" 
-                    alt="Map of King County" 
+                <img
+                    src="/images/Location.jpeg"
+                    alt="Map of King County"
                     className="w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-primary/10 mix-blend-multiply" />

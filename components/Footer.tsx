@@ -49,7 +49,8 @@ const Footer: React.FC = () => {
             <div>
               <h4 className="text-white font-bold uppercase tracking-[0.2em] text-sm mb-8">Navigation</h4>
               <ul className="space-y-4 text-offWhite/50">
-                {['Home', 'Services', 'Projects', 'About Us', 'Contact'].map(link => (
+                <li><a href="/" className="hover:text-primary transition-colors">Home</a></li>
+                {['Services', 'Projects', 'About Us', 'Contact'].map(link => (
                   <li key={link}><a href="#" className="hover:text-primary transition-colors">{link}</a></li>
                 ))}
               </ul>

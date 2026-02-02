@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MobileBottomBar from '../components/MobileBottomBar';
@@ -36,6 +37,12 @@ const PropertyCleanups: React.FC = () => {
 
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
+      <SEO
+        title="Property Cleanup Services - Leaf Removal & Yard Maintenance"
+        description="Professional property cleanup services in South King County. Comprehensive leaf removal, bush trimming, mulch installation, and seasonal yard maintenance. Keep your property immaculate year-round."
+        image="/images/Grass-GTO.jpeg"
+        url="https://gtolandscape.com/services/property-cleanups"
+      />
       <div className="beam-overlay" />
       <Header scrolled={scrolled} />
 
