@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 interface HeaderProps {
@@ -24,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
     >
       <div className="container mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="flex items-center space-x-2 sm:space-x-3">
+        <Link to="/" className="flex items-center space-x-2 sm:space-x-3">
           <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-sm overflow-hidden">
              <img src="/images/Logo.jpeg" alt="GTO Landscape Logo" className="w-full h-full object-cover" />
           </div>
@@ -32,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-tighter leading-none">GTO LANDSCAPE</span>
             <span className="text-[9px] sm:text-[10px] md:text-xs tracking-[0.15em] sm:tracking-[0.2em] text-primary font-medium">LLC</span>
           </div>
-        </a>
+        </Link>
 
         {/* Navigation - Desktop */}
         <nav className="hidden lg:flex items-center space-x-10 text-sm font-medium tracking-wide uppercase">
@@ -60,13 +61,13 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
                 className="absolute top-full left-0 mt-2 w-56 bg-charcoal/95 backdrop-blur-md border border-primary/20 rounded-sm shadow-2xl overflow-hidden"
               >
                 {services.map((service) => (
-                  <a
+                  <Link
                     key={service.name}
-                    href={service.href}
+                    to={service.href}
                     className="block px-6 py-3 text-sm text-offWhite hover:bg-primary/20 hover:text-primary transition-all duration-200 border-b border-white/5 last:border-b-0"
                   >
                     {service.name}
-                  </a>
+                  </Link>
                 ))}
               </motion.div>
             )}

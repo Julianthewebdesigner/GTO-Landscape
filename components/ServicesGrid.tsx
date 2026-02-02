@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const services = [
@@ -44,9 +45,9 @@ const ServicesGrid: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           {services.map((service, index) => (
-            <a
+            <Link
               key={service.title}
-              href={service.href}
+              to={service.href}
               className="block"
             >
               <motion.div
@@ -85,7 +86,7 @@ const ServicesGrid: React.FC = () => {
                   </motion.button>
                 </div>
               </motion.div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

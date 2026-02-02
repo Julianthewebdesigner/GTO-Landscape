@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const services = [
@@ -73,13 +74,13 @@ const Hero: React.FC = () => {
                     className="absolute top-full left-0 mt-2 w-full min-w-[250px] bg-charcoal/95 backdrop-blur-md border border-primary/20 rounded-sm shadow-2xl overflow-hidden z-50"
                   >
                     {services.map((service) => (
-                      <a
+                      <Link
                         key={service.name}
-                        href={service.href}
+                        to={service.href}
                         className="block px-6 py-3 text-sm text-offWhite hover:bg-primary/20 hover:text-primary transition-all duration-200 border-b border-white/5 last:border-b-0"
                       >
                         {service.name}
-                      </a>
+                      </Link>
                     ))}
                   </motion.div>
                 )}
