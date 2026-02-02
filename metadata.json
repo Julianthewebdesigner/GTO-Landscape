@@ -1,0 +1,7 @@
+{
+  "name": "GTO Landscape LLC",
+  "description": "A premium, luxury landscaping and hardscaping website for high-end contractors in South King County.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
