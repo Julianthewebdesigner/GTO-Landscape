@@ -26,7 +26,7 @@ const Home: React.FC = () => {
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white">
       <SEO
-        title="Professional Landscaping Services in South King County, WA"
+        title="Professional Landscaping Services in King County and Surrounding Areas, WA"
         description="GTO Landscape LLC offers premium landscaping, hardscaping, and outdoor living services in Des Moines, Federal Way, Kent, Renton, and surrounding areas. Expert landscape design, property cleanups, and construction with 100% satisfaction guaranteed."
         image="https://gtolandscape.com/images/Logo.jpeg"
         url="https://gtolandscape.com"
@@ -73,7 +73,7 @@ const Home: React.FC = () => {
             </div>
             <div className="mt-12 text-white/60">
               <p className="text-sm">Des Moines, WA 98198</p>
-              <p className="text-sm mt-2">Serving South King County & Surrounding Areas</p>
+              <p className="text-sm mt-2">Serving King County & Surrounding Areas</p>
             </div>
           </div>
         </section>

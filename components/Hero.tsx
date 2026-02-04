@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="text-primary font-bold tracking-[0.2em] sm:tracking-[0.3em] uppercase text-xs sm:text-sm mb-3 sm:mb-4 block">
-              South King County's Premier Contractor
+              King County's Premier Contractor
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold leading-tight mb-6 sm:mb-8">
               Luxury Outdoor Spaces <br />

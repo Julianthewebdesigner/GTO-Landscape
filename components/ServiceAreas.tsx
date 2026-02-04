@@ -22,7 +22,7 @@ const ServiceAreas: React.FC = () => {
           <div className="lg:w-1/2">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-4 sm:mb-6">Areas <span className="text-primary italic">We Serve</span></h2>
             <p className="text-base sm:text-lg text-charcoal/70 mb-8 sm:mb-10 leading-relaxed">
-              GTO Landscape LLC proudly serves homeowners throughout South King County and surrounding municipalities. We bring luxury landscaping to your neighborhood.
+              GTO Landscape LLC proudly serves homeowners throughout King County and surrounding municipalities. We bring luxury landscaping to your neighborhood.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-12">

@@ -39,7 +39,7 @@ const PropertyCleanups: React.FC = () => {
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
       <SEO
         title="Property Cleanup Services - Leaf Removal & Yard Maintenance"
-        description="Professional property cleanup services in South King County. Comprehensive leaf removal, bush trimming, mulch installation, and seasonal yard maintenance. Keep your property immaculate year-round."
+        description="Professional property cleanup services in King County and surrounding areas. Comprehensive leaf removal, bush trimming, mulch installation, and seasonal yard maintenance. Keep your property immaculate year-round."
         image="/images/Grass-GTO.jpeg"
         url="https://gtolandscape.com/services/property-cleanups"
       />

@@ -25,7 +25,7 @@ const SEO: React.FC<SEOProps> = ({
       <title>{fullTitle}</title>
       <meta name="title" content={fullTitle} />
       <meta name="description" content={description} />
-      <meta name="keywords" content="landscaping, hardscaping, outdoor living, landscape design, property cleanup, Des Moines WA, Federal Way, Kent, Renton, Auburn, SeaTac, Burien, South King County, paver patios, retaining walls, lawn care, commercial landscaping" />
+      <meta name="keywords" content="landscaping, hardscaping, outdoor living, landscape design, property cleanup, Des Moines WA, Federal Way, Kent, Renton, Auburn, SeaTac, Burien, King County, paver patios, retaining walls, lawn care, commercial landscaping" />
       <meta name="author" content="GTO Landscape LLC" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={url} />
@@ -59,7 +59,7 @@ const SEO: React.FC<SEOProps> = ({
           "@type": "LocalBusiness",
           "name": "GTO Landscape LLC",
           "image": `${url}/images/Logo.jpeg`,
-          "description": "Professional landscaping and hardscaping services in South King County, WA. Specializing in paver patios, retaining walls, landscape design, and outdoor living spaces.",
+          "description": "Professional landscaping and hardscaping services in King County and surrounding areas, WA. Specializing in paver patios, retaining walls, landscape design, and outdoor living spaces.",
           "url": url,
           "telephone": "+12532692027",
           "email": "gtolandscape8@gmail.com",

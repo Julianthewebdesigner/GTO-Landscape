@@ -44,7 +44,7 @@ const OutdoorLiving: React.FC = () => {
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
       <SEO
         title="Outdoor Living Spaces - Lighting, Fire Pits, Water Features & Fencing"
-        description="Transform your backyard with custom outdoor living features. Professional landscape lighting, fire pits, water features, fence installation, and outdoor entertainment spaces in South King County, WA."
+        description="Transform your backyard with custom outdoor living features. Professional landscape lighting, fire pits, water features, fence installation, and outdoor entertainment spaces in King County and surrounding areas, WA."
         image="/images/Grass-GTO.jpeg"
         url="https://gtolandscape.com/services/outdoor-living"
       />

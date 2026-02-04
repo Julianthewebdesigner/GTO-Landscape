@@ -39,7 +39,7 @@ const LandscapeDesign: React.FC = () => {
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
       <SEO
         title="Landscape Design Services - Custom Planting & Garden Design"
-        description="Expert landscape design services in South King County. Custom planting plans, garden bed installation, and arbor care tailored to Pacific Northwest climate. Professional design consultation available."
+        description="Expert landscape design services in King County and surrounding areas. Custom planting plans, garden bed installation, and arbor care tailored to Pacific Northwest climate. Professional design consultation available."
         image="/images/Grass-GTO.jpeg"
         url="https://gtolandscape.com/services/landscape-design"
       />

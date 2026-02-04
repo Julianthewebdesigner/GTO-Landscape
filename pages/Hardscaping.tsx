@@ -39,7 +39,7 @@ const Hardscaping: React.FC = () => {
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
       <SEO
         title="Hardscaping Services - Paver Patios & Retaining Walls"
-        description="Professional hardscaping services in South King County. Custom paver patios, retaining walls, outdoor kitchens, and more. Expert installation with premium materials. Serving Des Moines, Federal Way, Kent, and surrounding areas."
+        description="Professional hardscaping services in King County and surrounding areas. Custom paver patios, retaining walls, outdoor kitchens, and more. Expert installation with premium materials. Serving Des Moines, Federal Way, Kent, and surrounding areas."
         image="/images/Grass-GTO.jpeg"
         url="https://gtolandscape.com/services/hardscaping"
       />
