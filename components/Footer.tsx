@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       {/* The Curved Shape Overlay */}
       <div className="absolute top-0 left-0 w-full h-24 sm:h-32 bg-offWhite" style={{ clipPath: 'ellipse(70% 100% at 50% 0%)' }}></div>
 
-      <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pb-16 sm:pb-20">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 pb-32 sm:pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-20">
           <div>
             <div className="flex items-center space-x-3 mb-8 sm:mb-10">
@@ -66,10 +66,10 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-16 sm:mt-24 pt-6 sm:pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
-          <p className="text-offWhite/30 text-[10px] sm:text-xs text-center md:text-left">© 2024 GTO Landscape LLC. All rights reserved. WA Contractor Lic #GTOLALL776BS</p>
-          <div className="flex space-x-6 sm:space-x-8 text-offWhite/30 text-[10px] sm:text-xs uppercase tracking-widest">
-            <a href="https://www.eagleclawagency.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+        <div className="mt-16 sm:mt-24 pt-6 sm:pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-4">
+          <p className="text-offWhite/40 text-[11px] sm:text-xs text-center md:text-left">© 2024 GTO Landscape LLC. All rights reserved. WA Contractor Lic #GTOLALL776BS</p>
+          <div className="flex space-x-6 sm:space-x-8">
+            <a href="https://www.eagleclawagency.com" target="_blank" rel="noopener noreferrer" className="text-offWhite/80 hover:text-primary transition-colors text-sm sm:text-base font-medium uppercase tracking-wider">
               Designed by Eagle Claw Design
             </a>
           </div>
