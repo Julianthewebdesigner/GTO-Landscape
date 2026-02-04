@@ -9,9 +9,9 @@ const projects = [
     img: "/images/Hardscape.jpeg"
   },
   {
-    title: "Federal Way Retaining Wall",
+    title: "Federal Way Custom Fence",
     location: "Federal Way, WA",
-    img: "/images/Retaining Wall.jpeg"
+    img: "/images/IMG_7639.jpeg"
   },
   {
     title: "Kent Patio Transformation",
@@ -19,14 +19,24 @@ const projects = [
     img: "/images/GTO-Stairs.jpeg"
   },
   {
-    title: "Renton Custom Lighting",
+    title: "Renton Decorative Fence",
     location: "Renton, WA",
-    img: "/images/Gravel-GTO.jpeg"
+    img: "/images/IMG_5989.jpeg"
   },
   {
-    title: "Auburn Stone Pathway",
+    title: "Des Moines Property Cleanup",
+    location: "Des Moines, WA",
+    img: "/images/IMG_7654.jpeg"
+  },
+  {
+    title: "Auburn Landscape Design",
     location: "Auburn, WA",
-    img: "/images/Grass-GTO.jpeg"
+    img: "/images/IMG_5836.jpeg"
+  },
+  {
+    title: "Federal Way Retaining Wall",
+    location: "Federal Way, WA",
+    img: "/images/Retaining Wall.jpeg"
   }
 ];
 

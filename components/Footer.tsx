@@ -69,7 +69,9 @@ const Footer: React.FC = () => {
         <div className="mt-16 sm:mt-24 pt-6 sm:pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
           <p className="text-offWhite/30 text-[10px] sm:text-xs text-center md:text-left">© 2024 GTO Landscape LLC. All rights reserved. WA Contractor Lic #GTOLALL776BS</p>
           <div className="flex space-x-6 sm:space-x-8 text-offWhite/30 text-[10px] sm:text-xs uppercase tracking-widest">
-            <span>Built by GTO Digital</span>
+            <a href="https://www.eagleclawagency.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              Designed by Eagle Claw Design
+            </a>
           </div>
         </div>
       </div>

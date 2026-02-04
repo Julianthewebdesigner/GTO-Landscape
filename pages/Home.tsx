@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ServicesGrid from '../components/ServicesGrid';
+import GalleryCarousel from '../components/GalleryCarousel';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ProjectsCarousel from '../components/ProjectsCarousel';
 import ServiceAreas from '../components/ServiceAreas';
@@ -27,7 +28,7 @@ const Home: React.FC = () => {
       <SEO
         title="Professional Landscaping Services in South King County, WA"
         description="GTO Landscape LLC offers premium landscaping, hardscaping, and outdoor living services in Des Moines, Federal Way, Kent, Renton, and surrounding areas. Expert landscape design, property cleanups, and construction with 100% satisfaction guaranteed."
-        image="/images/Logo.jpeg"
+        image="https://gtolandscape.com/images/Logo.jpeg"
         url="https://gtolandscape.com"
         type="website"
       />
@@ -41,6 +42,7 @@ const Home: React.FC = () => {
         <Hero />
 
         <ServicesGrid />
+        <GalleryCarousel />
         <WhyChooseUs />
         <ProjectsCarousel />
         <ServiceAreas />

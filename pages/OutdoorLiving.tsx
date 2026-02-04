@@ -32,14 +32,19 @@ const OutdoorLiving: React.FC = () => {
       title: "Fire Pits",
       description: "Extend your outdoor season with a custom fire pit or fireplace. Perfect for entertaining or relaxing under the stars on cool Pacific Northwest evenings.",
       image: "/images/Hardscape.jpeg"
+    },
+    {
+      title: "Fence Installation",
+      description: "Enhance privacy, security, and curb appeal with custom fence installation. From classic wood to modern composite, we build quality fences that stand the test of time.",
+      image: "/images/IMG_7639.jpeg"
     }
   ];
 
   return (
     <div className="relative min-h-screen font-sans selection:bg-primary selection:text-white bg-charcoal">
       <SEO
-        title="Outdoor Living Spaces - Lighting, Fire Pits & Water Features"
-        description="Transform your backyard with custom outdoor living features. Professional landscape lighting, fire pits, water features, and outdoor entertainment spaces in South King County, WA."
+        title="Outdoor Living Spaces - Lighting, Fire Pits, Water Features & Fencing"
+        description="Transform your backyard with custom outdoor living features. Professional landscape lighting, fire pits, water features, fence installation, and outdoor entertainment spaces in South King County, WA."
         image="/images/Grass-GTO.jpeg"
         url="https://gtolandscape.com/services/outdoor-living"
       />
@@ -70,7 +75,7 @@ const OutdoorLiving: React.FC = () => {
               Extend Your Living Space
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-offWhite/80 max-w-2xl mb-8 font-light leading-relaxed">
-              Create unforgettable outdoor experiences with custom lighting, fire features, and water elements that bring your backyard to life.
+              Create unforgettable outdoor experiences with custom lighting, fire features, water elements, and quality fencing that bring your backyard to life.
             </p>
             <a href="mailto:gtolandscape8@gmail.com">
               <button className="px-8 sm:px-10 py-4 sm:py-5 bg-primary hover:bg-deepTeal text-white font-bold uppercase tracking-widest text-xs sm:text-sm transition-all duration-300 rounded-sm shadow-2xl">
@@ -89,7 +94,7 @@ const OutdoorLiving: React.FC = () => {
             <p className="text-offWhite/60 tracking-[0.2em] uppercase text-xs sm:text-sm text-charcoal/60">Elevate Your Outdoor Experience</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}

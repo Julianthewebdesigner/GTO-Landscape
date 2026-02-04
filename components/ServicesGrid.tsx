@@ -21,13 +21,13 @@ const services = [
   {
     title: "Property Cleanups",
     list: ["Leaf Removal", "Bush Trimming", "Mulch & Soil"],
-    image: "/images/Cleanup-GTO.jpeg",
+    image: "/images/IMG_7654.jpeg",
     button: "CLEANUPS",
     href: "/services/property-cleanups"
   },
   {
     title: "Outdoor Living",
-    list: ["Lighting Design", "Water Features", "Fire Pits"],
+    list: ["Lighting Design", "Water Features", "Fire Pits", "Fence Installation"],
     image: "/images/GTO-Stairs.jpeg",
     button: "LIVING SPACES",
     href: "/services/outdoor-living"
