@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
       <div className="container mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <div className="w-48 h-20 sm:w-56 sm:h-24 md:w-64 md:h-28 lg:w-72 lg:h-32">
+          <div className="w-60 h-24 sm:w-70 sm:h-28 md:w-80 md:h-32 lg:w-96 lg:h-40">
              <img src="/images/gtotransparentlogo.png" alt="GTO Landscape Logo" className="w-full h-full object-contain" />
           </div>
         </Link>
