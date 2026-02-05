@@ -28,7 +28,7 @@ const services = [
   {
     title: "Property Maintenance",
     list: ["Lawn mowing & edging", "Trimming & pruning", "Seasonal cleanups", "Mulch refresh & bed maintenance", "Weed control & prevention", "Leaf cleanup & haul-away"],
-    image: "/images/GTO-Stairs.jpeg",
+    image: "/images/propertymaintenance.jpg",
     button: "MAINTENANCE",
     href: "/services/property-maintenance"
   }
