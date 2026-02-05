@@ -26,12 +26,12 @@ const LandscapeDesign: React.FC = () => {
     {
       title: "Bed Installation",
       description: "Professional installation of garden beds with proper drainage, soil composition, and plant placement to ensure long-term health and beauty.",
-      image: "/images/Gravel-GTO.jpeg"
+      image: "/images/Bed Installation.jpeg"
     },
     {
       title: "Arbor Care",
       description: "Expert tree and shrub care to keep your landscape looking its best. From pruning to health assessments, we protect your green investment.",
-      image: "/images/Fence.jpeg"
+      image: "/images/Arbor Care.jpeg"
     }
   ];
 

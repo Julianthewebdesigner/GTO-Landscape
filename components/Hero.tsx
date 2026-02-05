@@ -7,7 +7,7 @@ const services = [
   { name: 'Hardscaping', href: '/services/hardscaping' },
   { name: 'Landscape Design', href: '/services/landscape-design' },
   { name: 'Property Cleanups', href: '/services/property-cleanups' },
-  { name: 'Outdoor Living', href: '/services/outdoor-living' }
+  { name: 'Property Maintenance', href: '/services/property-maintenance' }
 ];
 
 const Hero: React.FC = () => {

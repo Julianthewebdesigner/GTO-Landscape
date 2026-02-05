@@ -7,7 +7,7 @@ const services = [
   {
     title: "Hardscaping",
     list: ["Paver Patios", "Retaining Walls", "Outdoor Kitchens"],
-    image: "/images/Hardscape.jpeg",
+    image: "/images/aigenerate.jpeg",
     button: "HARDSCAPING",
     href: "/services/hardscaping"
   },
@@ -21,16 +21,16 @@ const services = [
   {
     title: "Property Cleanups",
     list: ["Leaf Removal", "Bush Trimming", "Mulch & Soil"],
-    image: "/images/IMG_7654.jpeg",
+    image: "/images/Bed Installation.jpeg",
     button: "CLEANUPS",
     href: "/services/property-cleanups"
   },
   {
-    title: "Outdoor Living",
-    list: ["Lighting Design", "Water Features", "Fire Pits", "Fence Installation"],
+    title: "Property Maintenance",
+    list: ["Lawn mowing & edging", "Trimming & pruning", "Seasonal cleanups", "Mulch refresh & bed maintenance", "Weed control & prevention", "Leaf cleanup & haul-away"],
     image: "/images/GTO-Stairs.jpeg",
-    button: "LIVING SPACES",
-    href: "/services/outdoor-living"
+    button: "MAINTENANCE",
+    href: "/services/property-maintenance"
   }
 ];
 

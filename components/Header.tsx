@@ -11,7 +11,7 @@ const services = [
   { name: 'Hardscaping', href: '/services/hardscaping' },
   { name: 'Landscape Design', href: '/services/landscape-design' },
   { name: 'Property Cleanups', href: '/services/property-cleanups' },
-  { name: 'Outdoor Living', href: '/services/outdoor-living' }
+  { name: 'Property Maintenance', href: '/services/property-maintenance' }
 ];
 
 const Header: React.FC<HeaderProps> = ({ scrolled }) => {
@@ -25,13 +25,9 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
     >
       <div className="container mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-2 sm:space-x-3">
-          <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-sm overflow-hidden">
-             <img src="/images/Logo.jpeg" alt="GTO Landscape Logo" className="w-full h-full object-cover" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-tighter leading-none">GTO LANDSCAPE</span>
-            <span className="text-[9px] sm:text-[10px] md:text-xs tracking-[0.15em] sm:tracking-[0.2em] text-primary font-medium">LLC</span>
+        <Link to="/" className="flex items-center">
+          <div className="w-40 h-16 sm:w-48 sm:h-18 md:w-56 md:h-20">
+             <img src="/images/gtotransparentlogo.png" alt="GTO Landscape Logo" className="w-full h-full object-contain" />
           </div>
         </Link>
 

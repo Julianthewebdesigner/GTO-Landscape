@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Hardscaping from './pages/Hardscaping';
 import LandscapeDesign from './pages/LandscapeDesign';
 import PropertyCleanups from './pages/PropertyCleanups';
-import OutdoorLiving from './pages/OutdoorLiving';
+import PropertyMaintenance from './pages/PropertyMaintenance';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const App: React.FC = () => {
           <Route path="/services/hardscaping" element={<Hardscaping />} />
           <Route path="/services/landscape-design" element={<LandscapeDesign />} />
           <Route path="/services/property-cleanups" element={<PropertyCleanups />} />
-          <Route path="/services/outdoor-living" element={<OutdoorLiving />} />
+          <Route path="/services/property-maintenance" element={<PropertyMaintenance />} />
         </Routes>
       </Router>
     </HelmetProvider>

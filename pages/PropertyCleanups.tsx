@@ -21,17 +21,17 @@ const PropertyCleanups: React.FC = () => {
     {
       title: "Leaf Removal",
       description: "Comprehensive leaf cleanup services to keep your property pristine through fall and winter. We remove, haul, and dispose of all yard debris professionally.",
-      image: "/images/Cleanup-GTO.jpeg"
+      image: "/images/Leaf Removal.jpeg"
     },
     {
       title: "Bush Trimming",
       description: "Expert pruning and trimming to maintain healthy, attractive shrubs and hedges. Our precise cuts promote growth while enhancing your property's curb appeal.",
-      image: "/images/Grass-GTO.jpeg"
+      image: "/images/Trimming.jpeg"
     },
     {
       title: "Mulch & Soil",
       description: "Premium mulch installation and soil amendment services. We improve drainage, retain moisture, and give your beds a polished, professional appearance.",
-      image: "/images/Gravel-GTO.jpeg"
+      image: "/images/ChatGPT Image Feb 3, 2026, 12_34_16 PM.jpeg"
     }
   ];
 
